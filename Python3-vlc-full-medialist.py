@@ -18,7 +18,9 @@ mediaList = vlcInstance.media_list_new()
 
 mediaListPlayer = vlcInstance.media_list_player_new()
 # toggling full screen
-#mediaListPlayer.toggle_fullscreen()
+media_player = vlc.MediaPlayer()
+mediaListPlayer.set_media_player(media_player)
+media_player.toggle_fullscreen()
   
 # get file list
 files = glob.glob(dpath)
