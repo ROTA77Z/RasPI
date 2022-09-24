@@ -10,5 +10,6 @@ On other project use ST7789 for display movie on it.
 Pimoroni Audio Dac Shim (PIM542)
 If you don't push the board all the way into the pins on the Raspberry Pi, the contact may not work. If you use extension pins, they may not be thick enough to cause contact problems. (I had a hard time with that)
 I'm stacking Audio Dac Shim(line) on Raspberry Pi Zero W with Pirate Audio Amp. So, it makes 4 speaker system.
+
 Pimoroni Audio AMP Shim (PIM541)
 This board is more severe, and thin GPIO pins don't make good contact. It seems that if it is not a thick pin like Pimoroni's hammered GPIO pin, it will not make contact even if it is pushed all the way to the root.　Therefore, I was able to purchase it, but I have not tried it.
